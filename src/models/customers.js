@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 
-
 //MVC - Model View Controller 
 const schema = new mongoose.Schema({
   name: String,

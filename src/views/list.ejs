@@ -11,7 +11,8 @@
   <ul>
     <% users.forEach((user) => { %>
       <li>
-        <%= user.name %> - <%= user.email %> - <%= user.age %> anos
+        <%= user.name %> - <%= user.email %> - <%= user.age %> -
+        <a href="/edit?id=<%= user._id %>">[editar]</a>
       </li>
     <% }) %>
   </ul>
